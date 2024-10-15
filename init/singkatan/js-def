@@ -1,0 +1,120 @@
+dataset ; read-only property of the HTML interface provides read/write aces to custom data attributes (data-*) on elements. It exposes a map of strings (DOMStringMap) with an entry for each data-* attributes;
+DOMContentLoaded ; event fires When the initial html document has been completely loaded and parsed, without waiting for stylesheets, images, and subframes to finish loading;
+format. date Objects encapsulate an integral number that represent milliseconds;
+height ; property sets or returns the height of an element;
+isNaN() ; Function determines whether a value is NaN, first converting the value to a number if necessary because coercion the isNaN() Function can be surprising, You may prefer to user Number.isNaN();
+length ; property returns the length of a string, the length property of an empty string is 0;
+load ; event is fired When the hole page has loaded including all dependent resource such as stylesheet, scripts, iframes, and images;
+offsetTop ; a number, representing the top position of the element, in pixels;
+pageYOffset ; read only window property that returns the number of pixels the document has been scrolled vertically;
+scroll event ; fires When the document view has been scrolled.;
+slice ; extracts a sections of a string without modifying the original string;
+submit ; fires When a <form> is submitted;
+target ; contains a reference to the element that triggered the event, while e.currentTarget contains a reference to the element that event handler is attached to ;
+textContent ; property sets or returns the text content of the specified node, and all it's descendants;
+value ; property in JavaScript that retrieves the current o fan input field in a form. essentially It returns the value entered into an html input element, such as text box;
+display ; property specifies the display behaviour the type of rendering box of an element (block ; element is rendered as a block-level element)
+transform ; transform property applies a 2d or 3d transformation to an element. this property allows You to rotate, scale, move, ske, etc. elements
+await() ; used to wait for a promise and get Its fulfillment value. It can only be used inside an async Function or at the etop level of a module;
+pop(); removes the last element of an array;
+push() ; methods adds new items to the end of an array;
+return ; statement stops the execution of a Function and returns a value; if omitted It returns undefined
+constructor() ; method is a special method of a class for creating initializing an object instance of that class;
+dot notation; way of JavaScript to access properties and method of an object, you can access an item an array too e.g.  course.isFree;
+bracket notation ; access an item of array course["isFree"];
+useCapture ; parameter boolean value, to applied or not the event listener you have;
+let ; a way to declare a variable and can be reassigned;
+innerHTML ; property sets or returns the html content (inner html) of an element;
+getElementByTagName(""); select by html tag name; 
+" setItem(); method of the storage interface, When passed a key name and value, will add that key to the given storage object, or update that keys value If It already exists; ("key", "value")
+" dblclick ; event fires When a poiinting device button (such as a mouses primary button) is double-clicked;
+chrome ; method provided by the chorme extensions API When we want to interact with chrome extensions;
+onclick ; ;
+this ; keyword refers to a different object depending on How It used;
+removeEventListener ; removes an event listerner previously registered with EventTarget.addEventListener() from the target;
+clearInterval() method cancels a timed, repeating action which was previously established by a call to setInterval();
+SyntheticBaseEvent ; object that wraps the natvie event in react, It gives you the same functionalities and more. like making sure you have the same behaviour accross browsers
+addEventListener() ; The addEventListener() method of the EventTarget interface sets up a function that will be called whenever the specified event is delivered to the target. 
+
+readonly ; we won't be able to change the value;
+
+# array method
+.filter() ; method of Array instances creates a shallow copy of a portion of a given array, filtered down to just the elements from the given array that pass the test implemented by the provided function.
+.reduce() ; The reduce() method of Array instances executes a user-supplied "reducer" callback function on each element of the array, in order, passing in the return value from the calculation on the preceding element. The final result of running the reducer across all elements of the array is a single value.
+.map() ; The map() method of Array instances creates a new array populated with the results of calling a provided function on every element in the calling array
+
+# keyword
+class ; keyword can be used to define a class inside an expression;
+
+# math
+math ; object has no constructor, static, all methods and properties can be used whiteout creating a math object first;
+Math.floor() ; static method always rounds down an return the largest than or equal to a give number;
+
+# date
+date ; Objects represent a single moment in time in a platform-independent (year, months, date, hours, minutes, seconds) remember month is 0-indexing hours Using 24hours format;
+getDate() ; get the date in number;
+getDay() ; method of date instances returns the day of the week for this date according to local time where 0 is represents Sunday.;
+getFullYear() ; method of date instances returns the year for date according to local time ;
+getHours() ; method of date instances returns the hours for date according to local time ;
+getMinutes() ; method of date instances returns the year for date according to local time ;
+getMonth() ; method of date instances returns the month for date according to local time ;
+getTime() ; method of date instances returns the number of milliseconds for this date since epoch, which is defined as the midnight at the beginning January 1, 1970, UTC;
+
+# methods
+alert() ; method displays an alert box with message an and OK button. the alert() method is used When You want information to come through to the user;
+format() ; method of itnl.listformat instances returning a string with a language-specific representation of the lints;
+createAttribute() ; method creates an attribute and returns the attribute as and Attr object;
+preventDefault() ; method of the event interface tells the user agent that if the event doesn't get explicitly handled, it's default action should not be taken as It normally would be;
+removeChild() ; method removes an element's child;
+setAttributeNode() ; method adds an attribute node to an element, replaces existing attribute nodes, returns an attribute object;
+setInterval() ; method calls a Function at a specified intervals(in milliseconds), continues calling the Function until clearInterval() is called or the window is closed;
+removeItem() ; method removes the specified storage object item, belongs to the storage object, which can be either a localStorage object or a sessinoStroage object;
+setTimeout() ; method sets a timer which executes a Function or specified piece of code once the timer expires;
+getItem() ; method returns value of the  specified storage object item; passing ("key")
+catch() ; method of promise instances schedules a Function to be called When the promise is rejected. It immediately returns an equivalent promise object, allowing You to chain to other promise method
+finally() ; method of promise instances schedules a Function to be called When the promise is settled(either fulfilled or rejected). It immediately returns an equivalent promise object, allowing You to chain cells to other promise methods;
+getBoundingClientRect() ; method returns the size of an element and it's position relative to the viewport;
+remove() ; method remove the element from the DOM;
+scrollTo(); a particular set of coordinate in the document;
+stopPropagation() ; method of the Event interface prevents further propagation of the current event in the capturing and bubbling phases. It does not, however, prevent any default behaviors from occurring; for instance, clicks on links are still processed. If you want to stop those;
+
+# window
+sessionStorage ; The read-only sessionStorage property accesses a session Storage object for the current origin. sessionStorage is similar to localStorage; the difference is that while data in localStorage doesn't expire, data in sessionStorage is cleared when the page session ends.;
+
+
+# variable
+const ; a way to declare a variable but can't be reassigned;
+
+# HTML DOM;
+parentElement ; returns the parent element of the specified element
+children ; property returns a collection of an elements child elements, return an HTML object
+
+# console method
+conosle.error() ; method writes an error message to the console, useful for testing purpose
+conosle.warn() ; method writes a warning to the console, in gold-ish brown color
+console.table() ; method writes a table to the console
+
+# promise
+json() ; The json() method of the Response interface takes a Response stream and reads it to completion. It returns a promise which resolves with the result of parsing the body text as JSON
+then() ; method of promise instances takes up to two arguments: callback Function for the fulfilled and rejected cases of the promise. It immediately returns an equivalent promise object, allowing You to chain calls to other promise methods
+fetch() ; The Fetch API provides a JavaScript interface for accessing and manipulating parts of the protocol, such as requests and responses. It also provides a global fetch() method that provides an easy, logical way to fetch resources asynchronously across the network
+
+# operators
+await ; The await operator is used to wait for a Promise and get its fulfillment value. It can only be used inside an async function or at the top level of a module.
+fetch ; The Fetch API provides a JavaScript interface for accessing and manipulating parts of the protocol, such as requests and responses. It also provides a global fetch() method that provides an easy, logical way to fetch resources asynchronously across the network.
+
+# document;
+document.all ; all the tags in array form document.all[2] tag with index 2, deprecated
+
+# node interface method;
+replaceChild(newChild, oldChild) ; replaces a child node within the given (parent) node
+
+# interface;
+FormData() ; The FormData interface provides a way to construct a set of key/value pairs representing form fields and their values, which can be sent using the fetch(), ;
+as HTMLImageElement ; interface represents an HTML <img> element, providing the properties and methods used to manipulate image elements.
+
+# operator;
+typeof ; refer to the type of a variable or property
+keyof  ; takes an Object type and produces string or numeric literal union of it's keys.
+
+.bind() ; The bind() method of Function instances creates a new function that, when called, calls this function with its this keyword set to the provided value, and a given sequence of arguments preceding any provided when the new function is called.

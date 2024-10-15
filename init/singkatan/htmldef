@@ -1,0 +1,540 @@
+autoplay    ; is a Boolean. When present the video will automatically start playing number      ; defines a field for entering a number;
+placeholder ; attribute specifies a short hint that describes the expected value of an input field(e.g. a sample value or a short description of the expected format)
+height=""   ; attribute the number in pixels
+width=""    ; attribute the number in pixels
+method      ; How to send from-data (the form-data is sent to the page specified in the action attribute)
+center      ; used in html4 to center-align text
+type        ; style (specifies the internet media type aka mime type)
+span        ; tag is an inline container used to mark up a part of a text, or a part of a document, much like div element but div is block level element
+onclick()   ; event occurs When the user clicks on an html element;
+defer       ;  boolean attribute, the script is downloaded in parallel to parish the page, and executed after the page has finished parsing
+
+/* {{{ */ Tags
+
+a           ; open links
+b           ; bold
+body        ; your main content displayed here
+button      ; button
+div         ; tags with no semantic meaning
+footer      ; footer the last section of the page (copyright statement and legal links)
+form        ; user input section
+h1          ; largest text (only appear once in the page)
+h2 - h6     ; lower and even lower text size
+header      ; logo, login, join us, section filter
+head        ; metadata site including external resources (not diplayed on the page) or only 'favicon and site title'
+i           ; italic
+img         ; image
+input       ; one line area user can type, after pressing enter and it's done
+li          ; list reffered by you use 'ul' or 'ol'
+main        ; all of the main content
+ol          ; ordered list (default list by number 1. 2.)
+p           ; paragraph
+textarea    ; multiple line area user can type, after pressing enter it's go to the next line
+ul          ; unordered list (default has bullet * list)
+hr          ; horizontal ruler line, separate section (self closing tags)
+
+
+/* }}} */
+/* {{{ */ Level Element
+
+block   ; div
+inline  ; span
+
+/* }}} */
+/* {{{ */ Closing Tags 
+
+self closing tags
+img
+
+/* }}} */
+/* {{{ */ Style Resources
+
+inline style ; css style you applied directly in HTML file e.g. <p style="color: red">foo</p>
+internal style  ; inside head tags add style tags and Using selector to specify which element you want to applied
+external style  ; use another css file and define <link> tags in the <head> section and links with href="foo.css"
+
+/* }}} */
+/* {{{ */ attribute
+
+integritty      ; The integrity attribute allows a browser to check the fetched script to ensure that the code is never loaded if the source has been manipulated. (avoid hacker)
+crossorigin     ; How the element handles cross-origin request
+anonymous       ; fetch Resources without sending credentials via coookies
+for             ; When used together with the <label> element, the for attribute specifies which form element a label is bound to. When used together with the <output> element, the for attribute specifies the relationship between the result of the calculation, and the elements used in the calculation.
+
+/* }}} */
+
+/* {{{ */ Bootstrap
+
+/* {{{ */ properties
+
+disable     ; disable the button
+
+/* }}} */
+/* {{{ Tags */
+
+h1-h6   ; little bit softer than original HTML tags
+mark    ; mark tags highlight with softer yellow than orig HTML
+del     ; softer color deleted text
+s       ; no longer accurate text
+ins     ; addition to the document
+u       ; underline
+small   ; fine print
+strong  ; bold text
+em      ; italicized text
+
+/* }}} */
+/* {{{ */ display
+Screen Size                 Class
+Hidden on all      .d-none
+Hidden only on xs  .d-none .d-sm-block
+Hidden only on sm  .d-sm-none .d-md-block
+Hidden only on md  .d-md-none .d-lg-block
+Hidden only on lg  .d-lg-none .d-xl-block
+Hidden only on xl  .d-xl-none
+Visible on all     .d-block
+Visible only on xs .d-block .d-sm-none
+Visible only on sm .d-none .d-sm-block .d-md-none
+Visible only on md .d-none .d-md-block .d-lg-none
+Visible only on lg .d-none .d-lg-block .d-xl-none
+Visible only on xl .d-none .d-xl-block
+/* }}} */
+/* {{{ */ Class
+
+blockquote-footer       ; -- your text (softer text than blockquote)
+blockquote              ; nice style of blockquote
+border                  ; border applied
+gx-[1-6]                ; wider items
+gy-[1-6]                ; gutter y-axis make gaps each item
+h1-h6                   ; turn p tags into heading (a bit softer color)
+img-fluid               ; make It responsive
+initialism              ; When user hover will be '?' marks and the abbrev shooed up
+[mp]-[btlrxy blank][1-5 auto]    ; [margin padding] [bottom top left right x y blank] [1-5 auto]    ; x(vertical top bottom) y(horizontal left right)   ; auto(margin-left margin-right auto / center)  ; blank (all 4 sides)
+row                     ; into block level element
+p[steb]-[1 - 5]         ; padding-[start top ending bottom] [left top right bottom]
+p-[1 - 5]               ; padding all sides
+
+
+/* {{{ */ card
+
+card-body               ; whenever you need a padded section within a card
+card                    ; flexible content container
+card-group              ; wrapper of group items
+card-image-bottom       ; image placed to the bottom of the card
+card-image-top          ; image placed to the top of the card
+card-subtitle           ; insed h-* but smaller than card-title
+card-text               ; in p tag
+card-title              ; inside h-*
+
+/* }}} */
+/* {{{ */ d (display)
+
+    d-none                  ; not displayed / hide element
+    d-[sm md lg xl]-[flex inline-flex]  ; same as below but with the proper-sizing
+    d-[flex inline-flex]    ; flex take entire width, inline-flex take not (inline level element)
+    d-inline-block          ; turn element into inline scope
+
+    /* }}} */
+/* {{{ */ bg (background)
+
+    bg-danger               ; red background
+    bg-dark                 ; black background
+    bg-info                 ; lightblue background
+    bg-light                ; almost white background
+    bg-primary              ; blue background
+    bg-secondary            ; grey background
+    bg-success              ; green background
+    bg-warning              ; yellow background
+    bg-body                 ; body color like body tag
+    bg-white                ; white color
+    bg-transparent          ; trasnparent color
+    bg-gradient             ; vertical gradient color
+    bt-color?-subtle
+
+    /* }}} */
+    /* {{{ */ col
+
+    col-[1-12]              ; filled 8 stack, max is 12, more than that will fall into 12, combined multiple col more than 12 will fall into new row e.g. col-8 col-6
+    col                     ; full width viewport, e.g. col-6 col-2 col meaning col has col-4(filled the width)
+    col-lg                  ; large > 992px
+    col-md-[1-6]            ; higher number the higher column width
+    col-md                  ; medium > 768px
+    col-sm                  ; small > 576px
+    col-xl                  ; extra large > 1200px
+    col-xs                  ; extra shorthand 'col-' < 576px
+
+    /* }}} */
+    /* {{{ */ btn
+
+    btn-block               ; block-level
+    btn                     ; button applied
+    btn-danger              ; red
+    btn-dark                ; almost black
+    btn-info                ; yellow
+    btn-lg                  ; large
+    btn-light               ; lightgrey
+    btn-link                ; underline blue
+    btn-primary             ; blue
+    btn-outline-primary     ; outline blue, inside white, When hover full blue
+    btn-secondary           ; grey
+    btn-sm                  ; small
+    btn-success             ; green
+    btn-warning             ; lightblue
+
+    /* }}} */
+    /* {{{ */ rounded
+
+    rounded                 ; rounded image 4 side
+    rounded-[sm-lg]         ; rounded all sides [smaller larger]
+    rounded-[top right bottom left]  ; rounded all sides [smaller larger]
+
+    /* }}} */
+    /* {{{ */ width
+
+    w-[25 50 75 100 auto]   ; relative to the parent % (auto relative to the parent)
+
+    /* }}} */
+    /* {{{ */ container
+
+    container               ; 010 center divs
+    container-fluid         ; entire width of viewport
+    container-lg            ; large styles a container that has 100% width till 960px once the width is above 960px it will have a fixed width.
+    container-md            ; medium styles a container that has 100% width till 720px once the width is above 720px it will have a fixed width.
+    container-sm            ; small styles a container that has 100% width till 540px once the width is above 540px it will have a fixed width.
+    container-xl            ; large styles a container that has 100% width till 1140px once the width is above 1140px it will have a fixed width.
+    container-xxl           ; large styles a container that has 100% width till 1320px once the width is above 1320px it will have a fixed width.
+    display-[1-6]           ; placed in h1, no h1-h6 size will follow the class, heading with more letter spacing, 1 highest 6 lowest
+
+    /* }}} */
+    /* {{{ */ flex
+
+    flex-row                ; make It inline from left to right
+    flex-row-reverse        ; make It inline from right to left
+    flex-column             ; columnate 123
+    flex-column-reverse     ; columnate 321
+
+    /* }}} */
+    /* {{{ */ text-
+
+    text-center             ; center the text
+    text-start              ; from the left window
+    text-end                ; from the right most window
+    text-uppercase          ; uppercase your text
+    text-lowercase          ; lowercase your text
+    text-capitalize         ; capitalize your text
+    text-primary            ; 
+    text-secondary          ; 
+    text-success            ; 
+    text-danger             ; 
+    text-warning            ; 
+    text-info               ; 
+    text-dark               ; 
+    text-body               ; 
+    text-muted              ; 
+    text-white              ; 
+    text-black-50           ; black color with 50% opacity
+    text-white-50           ; white color with 50% opacity
+    text-[sm md lg xl]-[style]; combined with breakpoint
+
+    /* }}} */
+    /* {{{ */ justify-content-
+
+    justify-content-start   ; start from the left window
+    justify-content-end     ; start from the right window
+    justify-content-center  ; start from the center window
+    justify-content-between ; start from the left window
+    justify-content-around  ; start from the center window
+    justify-content-evenly  ; each gap has the same width
+    justify-content-[sm md lg xl]-[start end center berween around] ; the sizing changes
+
+    /* }}} */
+    /* {{{ */ align item
+
+    align-items-start       ; align top
+    align-items-end         ; align bottom
+    align-items-center      ; align center
+    align-items-baseline    ; align top
+    align-items-stretch     ; align filled top to bottom
+    align-items-[sm md lg xl]-[start end center baseline stretch]    ; with the sizing
+
+    /* }}} */
+    /* {{{ */ align-self
+
+    align-self-start    ; top around
+    align-self-end      ; bottom around
+    align-self-center   ; center around
+    align-self-baseline ; top around
+    align-self-stretch  ; filled around
+
+    /* }}} */
+    /* {{{ */ display-
+
+    display-[1-4]   ; typography, bigger than HTML, more letter spacing
+
+    /* }}} */
+/* {{{ */ fw (font weight)
+    fw-bold     ; bold your text
+    fw-normal   ; turn into normal
+    fw-light    ; light color gray-ish
+    /* }}} */
+    /* {{{ */ text-decoration
+
+    text-decoration-underline       ; make underlne 
+    text-decoration-line-through    ; line through the text
+    text-decoration-none            ; remove styled text such href links underline
+
+    /* }}} */
+    /* {{{ */ list-style
+
+    list-inline-item    ; the cildren of list-inline
+    list-unstyled       ; remove the dots
+    list-inline         ; turnt the list into inline (to the right)
+
+    /* }}} */
+    /* {{{ */ lh- lineheight
+
+    gaps between the line
+
+    lh-1        ; small lineheight
+    lh-2        ; bigger than 1
+    lh-sm       ; small
+    lh-bg       ; bigger
+    lh-base     ; default lineheight
+
+    /* }}} */
+    /* {{{ */ table
+
+    table               ; minimal table cool
+    table-dark          ; dark color
+    table-striped       ; stripped by column
+    table-bordered      ; has a full border
+    table-borderless    ; no border
+    table-hover         ; When user hover has a column highlight
+    table-primary       ; 
+    table-secondary     ; 
+    table-success       ; 
+    table-danger        ; 
+    table-warning       ; 
+    table-info          ; 
+    table-light         ; 
+    table-sm            ; small gap each column
+    table-responsive    ; When the row is too much and long we got a scrollbar bellow the table
+
+    /* }}} */
+    /* {{{ */ image
+
+
+    100% widhth, height will follow the sizing, responsive
+
+    img-fluid       ; responsive width and height
+    img-thumbnail   ; same size but has a border
+    rounded         ; crop in egg form
+    rounded-circle  ; crop in circle form
+    float-end       ; forward 1 dimension, the image in the right side, text after will be in the left side
+    float-start     ; the opposite
+    figure          ; inside figure tag, applied content as a figure
+    figure-caption  ; inside figcaption tag, the caption of the image above
+
+    /* }}} */
+    /* {{{ */ overflow
+
+    overflow-visible    ; default show the overflow content
+    overflow-hidden     ; hide the overflow content
+    overflow-auto       ; give a scrollbar in the right side
+
+    /* }}} */
+    /* {{{ */ shadow
+
+    shadow      ; show the shadow
+    shadow-none ; remove the shadow
+    shadow-sm   ; small
+    shadow-lg   ; large
+
+    /* }}} */
+    /* {{{ */ border
+
+    border          ; border all 4 side
+    border-top
+    border-bottom
+    border-start
+    border-end
+    border-primary
+    border-secondary
+    border-success
+    border-danger
+    border-warning
+    border-info
+    border-light
+    border-dark
+    border-1        ; smallest border
+    border-2
+    border-3
+    border-4
+    border-5        ; biggest border
+
+    /* }}} */
+    /* {{{ */ rounded
+
+    rounded         ; blunt level
+    rounded-0
+    rounded-1
+    rounded-2
+    rounded-3
+    rounded-top
+    rounded-end
+    rounded-bottom
+    rounded-start
+    rounded-circle  ; becomes circle if the width = height
+    rounded-pill    ; pill forms
+
+    /* }}} */
+    /* {{{ */ sticky
+
+    sticky-top  ; after It reach the top, the content will stay on the top
+
+    /* }}} */
+    /* {{{ */ navbar
+
+    navbar              ; navbar only (without links)
+    navbar-dark         ; dark navbar, combine with bg-dark
+    navbar-expand-lg    ; with links and search button
+
+    /* }}} */
+/* {{{ */ breakpoints
+
+Breakpoint     Class infix Dimensions
+X-Small            None        <576px
+Small              sm          ≥576px
+Medium             md          ≥768px
+Large              lg          ≥992px
+Extra large        xl          ≥1200px
+Extra extra large  xxl         ≥1400px
+
+/* }}} */
+/* {{{ */ position
+
+position-fixed      ; sticky to that place, even if we scroll (usually used on navbar)
+position-relative   ; up one dimension (but another element still consider that there's an element)
+position-absolute   ; up one dimension (not consider there are an element)
+position-static     ; 
+position-stickc     ;
+
+/* }}} */
+/* {{{ */ visible
+
+visible     ; default, showed on the page
+invisible   ; didn't showed on the page but, take the space
+
+/* }}} */
+/* {{{ */ opacity
+
+opacity-0   ; gone
+opacity-25  ; 
+opacity-50  ;
+opacity-75  ;
+opacity-100 ; 
+
+/* }}} */
+/* {{{ */ link-opacity
+
+the higher the clearer
+
+link-opacity-10
+link-opacity-25
+link-opacity-50
+link-opacity-75
+link-opacity-100
+
+/* }}} */
+/* {{{ */ link-underline
+
+unnderline coloring
+
+link-underline-primary
+link-underline-secondary
+link-underline-danger
+link-underline-success
+link-underline-dark
+link-underline-warning
+link-underline-info
+link-underline-light
+
+/* }}} */
+/* {{{ */ link-offset
+
+the higher the more gap
+
+link-offset-1  
+link-offset-2 
+link-offset-3 
+
+/* }}} */
+/* {{{ */ link-underline-opacity
+
+opacity of the link underline
+
+link-underline-opacity-0
+link-underline-opacity-10
+link-underline-opacity-25
+link-underline-opacity-50
+link-underline-opacity-75
+link-underline-opacity-100
+
+/* }}} */
+/* {{{ */ link color
+
+text and the underline will have the same color
+
+link-primary
+link-secondary
+link-success
+link-danger
+link-warning
+link-info
+link-light
+link-dark
+link-body-emphasis
+
+/* }}} */
+/* {{{ */ fixed sticky combo
+
+fixed-top
+fixed-bottom
+sticky-top
+sticky-bottom
+sticky-sm-bottom
+sticky-md-bottom
+sticky-lg-bottom
+sticky-xl-bottom
+sticky-xxl-bottom
+
+/* }}} */
+/* {{{ */ user-select
+
+user-select-all     ; one click to select all text
+user-select-auto    ; one click nothing, double click select one word, triple click select all
+user-select-none    ; user can't select a text
+
+/* }}} */
+/* {{{ */ pe (pointer)
+    pe-auto ; clickable links
+    pe-none ; not clickable links
+    /* }}} */
+    /* {{{ */ table-color
+
+    table with applied color style, you can use in certain column, row or cells only
+
+    table-primary
+    table-secondary
+    table-success
+    table-danger
+    table-warning
+    table-info
+    table-light
+    table-dark
+
+    /* }}} */
+
+
+    /* }}} */ end class
+
+    /* }}} */ end bootstrap

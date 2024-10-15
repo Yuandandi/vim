@@ -1,0 +1,19 @@
+call s:AddITags(s:indent_tags, [
+        \ 'a', 'abbr', 'acronym', 'address', 'b', 'bdo', 'big',
+        \ 'blockquote', 'body', 'button', 'caption', 'center', 'cite', 'code',
+        \ 'colgroup', 'dd', 'del', 'dfn', 'dir', 'div', 'dl', 'dt', 'em', 'fieldset', 'font',
+        \ 'form', 'frameset', 'h1', 'h2', 'h3', 'h4', 'h5', 'h6', 'head', 'html',
+        \ 'i', 'iframe', 'ins', 'kbd', 'label', 'legend', 'li',
+        \ 'map', 'menu', 'noframes', 'noscript', 'object', 'ol',
+        \ 'optgroup', 'q', 's', 'samp', 'select', 'small', 'span', 'strong', 'sub',
+        \ 'sup', 'table', 'textarea', 'title', 'tt', 'u', 'ul', 'var', 'th', 'td',
+        \ 'tr', 'tbody', 'tfoot', 'thead'])
+
+" New HTML5 elements:
+call s:AddITags(s:indent_tags, [
+        \ 'article', 'aside', 'audio', 'bdi', 'canvas', 'command', 'data',
+        \ 'datalist', 'details', 'dialog', 'embed', 'figcaption', 'figure',
+        \ 'footer', 'header', 'hgroup', 'main', 'mark', 'meter', 'nav', 'output',
+        \ 'picture', 'progress', 'rp', 'rt', 'ruby', 'section', 'summary',
+        \ 'svg', 'time', 'video'])
+

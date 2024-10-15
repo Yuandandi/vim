@@ -1,0 +1,856 @@
+from import type export namespace module prototype as arguments this super
+
+let var const delete new typeof void contained in of true false null undefined
+
+console.log
+console.dir
+console.log
+console.error
+console.clear
+console.table
+console.warn
+console.group
+console.log
+console.log
+
+alert confirm prompt status self top parent
+
+if else switch else do while for for break continue case default
+with yield skipwhite return skipwhite contained try catch throw finally
+debugger await
+
+constant constructor constructs function ignore inner private public readonly static
+ReadonlyArray
+const dict expose inheritDoc interface nosideeffects override protected struct internal
+example global
+alpha beta defaultValue eventProperty experimental label
+packageDocumentation privateRemarks remarks sealed typeParam
+
+scope priority animations
+ngdoc restrict methodOf propertyOf eventOf eventType nextgroup=typescriptDocParam skipwhite
+overview service object function method property event directive filter inputType error
+Object
+
+abstract virtual access augments
+
+arguments callback lends memberOf name type kind link mixes mixin tutorial nextgroup=typescriptDocParam skipwhite
+variation nextgroup=typescriptDocNumParam skipwhite
+
+author class classdesc copyright default defaultvalue
+deprecated description external host
+file fileOverview overview namespace requires since version
+summary todo license preserve
+
+borrows exports
+param arg argument property prop module
+define enum extends implements this typedef
+return returns throws exception
+see
+
+any number boolean string void never undefined null object unknown
+
+Error EvalError nextgroup=typescriptFuncCallArg
+InternalError
+RangeError ReferenceError
+StopIteration
+SyntaxError TypeError
+URIError Date
+Float32Array
+Float64Array
+Int16Array Int32Array
+Int8Array Uint16Array
+Uint32Array Uint8Array
+Uint8ClampedArray
+ParallelArray
+ArrayBuffer DataView
+Iterator Generator
+Reflect Proxy
+arguments
+eval uneval
+isFinite
+isNaN parseFloat
+parseInt
+decodeURI
+decodeURIComponent
+encodeURI
+encodeURIComponent
+
+isFinite isInteger isNaN isSafeInteger
+parseFloat parseInt
+toExponential toFixed toLocaleString nextgroup=typescriptFuncCallArg
+toPrecision toSource toString valueOf nextgroup=typescriptFuncCallArg
+
+fromCharCode fromCodePoint raw
+anchor charAt charCodeAt codePointAt
+concat endsWith includes indexOf lastIndexOf
+link localeCompare match normalize
+padStart padEnd repeat replace search
+slice split startsWith substr substring
+toLocaleLowerCase toLocaleUpperCase
+toLowerCase toString toUpperCase trim
+valueOf
+syntax cluster props
+
+Array
+isArray
+
+concat copyWithin entries every fill
+filter find findIndex forEach indexOf
+includes join keys lastIndexOf map
+pop push reduce reduceRight reverse
+shift slice some sort splice toLocaleString
+toSource toString unshift
+
+
+create defineProperties defineProperty
+entries freeze getOwnPropertyDescriptors
+getOwnPropertyDescriptor getOwnPropertyNames
+getOwnPropertySymbols getPrototypeOf
+isExtensible isFrozen isSealed
+keys preventExtensions values
+getOwnPropertyDescriptors hasOwnProperty
+isPrototypeOf propertyIsEnumerable
+toLocaleString toString valueOf seal
+setPrototypeOf
+
+length iterator match replace
+search split hasInstance isConcatSpreadable instanceof
+unscopables species toPrimitive
+toStringTag
+for keyFor
+
+apply bind call
+
+E LN10 LN2 LOG10E LOG2E PI SQRT1_2
+SQRT2
+abs acos acosh asin asinh atan
+atan2 atanh cbrt ceil clz32 cos
+cosh exp expm1 floor fround hypot
+imul log log10 log1p log2 max
+min pow random round sign sin
+sinh sqrt tan tanh trunc
+
+getDate getDay getFullYear getHours
+getMilliseconds getMinutes getMonth
+getSeconds getTime getTimezoneOffset
+getUTCDate getUTCDay getUTCFullYear
+getUTCHours getUTCMilliseconds getUTCMinutes
+getUTCMonth getUTCSeconds setDate setFullYear
+setHours setMilliseconds setMinutes
+setMonth setSeconds setTime setUTCDate
+setUTCFullYear setUTCHours setUTCMilliseconds
+setUTCMinutes setUTCMonth setUTCSeconds
+toDateString toISOString toJSON toLocaleDateString
+toLocaleFormat toLocaleString toLocaleTimeString
+toSource toString toTimeString toUTCString
+valueOf
+
+parse stringify
+lastIndex
+global ignoreCase multiline source sticky
+
+exec test
+clear delete entries forEach get has
+keys set values
+syntax cluster props
+
+size
+add clear delete entries forEach has
+values
+
+getOwnPropertyDescriptor getOwnPropertyNames
+defineProperty deleteProperty freeze seal
+preventExtensions has hasOwn get set enumerate
+iterate ownKeys apply construct
+
+resolve reject all race
+then catch finally
+
+apply construct defineProperty deleteProperty
+enumerate get getOwnPropertyDescriptor
+getPrototypeOf has isExtensible ownKeys
+preventExtensions set setPrototypeOf
+
+Collator DateTimeFormat NumberFormat nextgroup=typescriptFuncCallArg
+PluralRules nextgroup=typescriptFuncCallArg
+
+global process
+console Buffer
+module exports
+setTimeout
+clearTimeout
+setInterval
+clearInterval
+
+describe
+it test before
+after beforeEach
+afterEach
+beforeAll
+afterAll
+expect assert
+
+AbortController
+AbstractWorker AnalyserNode
+App Apps ArrayBuffer
+ArrayBufferView
+Attr AudioBuffer
+AudioBufferSourceNode
+AudioContext AudioDestinationNode
+AudioListener AudioNode
+AudioParam BatteryManager
+BiquadFilterNode
+BlobEvent BluetoothAdapter
+BluetoothDevice
+BluetoothManager
+CameraCapabilities
+CameraControl CameraManager
+CanvasGradient CanvasImageSource
+CanvasPattern CanvasRenderingContext2D
+CaretPosition CDATASection
+ChannelMergerNode
+ChannelSplitterNode
+CharacterData ChildNode
+ChromeWorker Comment
+Connection Console
+ContactManager Contacts
+ConvolverNode Coordinates
+CSS CSSConditionRule
+CSSGroupingRule
+CSSKeyframeRule
+CSSKeyframesRule
+CSSMediaRule CSSNamespaceRule
+CSSPageRule CSSRule
+CSSRuleList CSSStyleDeclaration
+CSSStyleRule CSSStyleSheet
+CSSSupportsRule
+DataTransfer DataView
+DedicatedWorkerGlobalScope
+DelayNode DeviceAcceleration
+DeviceRotationRate
+DeviceStorage DirectoryEntry
+DirectoryEntrySync
+DirectoryReader
+DirectoryReaderSync
+Document DocumentFragment
+DocumentTouch DocumentType
+DOMCursor DOMError
+DOMException DOMHighResTimeStamp
+DOMImplementation
+DOMImplementationRegistry
+DOMParser DOMRequest
+DOMString DOMStringList
+DOMStringMap DOMTimeStamp
+DOMTokenList DynamicsCompressorNode
+Element Entry EntrySync
+Extensions FileException
+Float32Array Float64Array
+FMRadio FormData
+GainNode Gamepad
+GamepadButton Geolocation
+History HTMLAnchorElement
+HTMLAreaElement
+HTMLAudioElement
+HTMLBaseElement
+HTMLBodyElement
+HTMLBRElement HTMLButtonElement
+HTMLCanvasElement
+HTMLCollection HTMLDataElement
+HTMLDataListElement
+HTMLDivElement HTMLDListElement
+HTMLDocument HTMLElement
+HTMLEmbedElement
+HTMLFieldSetElement
+HTMLFormControlsCollection
+HTMLFormElement
+HTMLHeadElement
+HTMLHeadingElement
+HTMLHRElement HTMLHtmlElement
+HTMLIFrameElement
+HTMLImageElement
+HTMLInputElement
+HTMLKeygenElement
+HTMLLabelElement
+HTMLLegendElement
+HTMLLIElement HTMLLinkElement
+HTMLMapElement HTMLMediaElement
+HTMLMetaElement
+HTMLMeterElement
+HTMLModElement HTMLObjectElement
+HTMLOListElement
+HTMLOptGroupElement
+HTMLOptionElement
+HTMLOptionsCollection
+HTMLOutputElement
+HTMLParagraphElement
+HTMLParamElement
+HTMLPreElement HTMLProgressElement
+HTMLQuoteElement
+HTMLScriptElement
+HTMLSelectElement
+HTMLSourceElement
+HTMLSpanElement
+HTMLStyleElement
+HTMLTableCaptionElement
+HTMLTableCellElement
+HTMLTableColElement
+HTMLTableDataCellElement
+HTMLTableElement
+HTMLTableHeaderCellElement
+HTMLTableRowElement
+HTMLTableSectionElement
+HTMLTextAreaElement
+HTMLTimeElement
+HTMLTitleElement
+HTMLTrackElement
+HTMLUListElement
+HTMLUnknownElement
+HTMLVideoElement
+IDBCursor IDBCursorSync
+IDBCursorWithValue
+IDBDatabase IDBDatabaseSync
+IDBEnvironment IDBEnvironmentSync
+IDBFactory IDBFactorySync
+IDBIndex IDBIndexSync
+IDBKeyRange IDBObjectStore
+IDBObjectStoreSync
+IDBOpenDBRequest
+IDBRequest IDBTransaction
+IDBTransactionSync
+IDBVersionChangeEvent
+ImageData IndexedDB
+Int16Array Int32Array
+Int8Array L10n LinkStyle
+LocalFileSystem
+LocalFileSystemSync
+Location LockedFile
+MediaQueryList MediaQueryListListener
+MediaRecorder MediaSource
+MediaStream MediaStreamTrack
+MutationObserver
+Navigator NavigatorGeolocation
+NavigatorID NavigatorLanguage
+NavigatorOnLine
+NavigatorPlugins
+Node NodeFilter
+NodeIterator NodeList
+Notification OfflineAudioContext
+OscillatorNode PannerNode
+ParentNode Performance
+PerformanceNavigation
+PerformanceTiming
+Permissions PermissionSettings
+Plugin PluginArray
+Position PositionError
+PositionOptions
+PowerManager ProcessingInstruction
+PromiseResolver
+PushManager Range
+RTCConfiguration
+RTCPeerConnection
+RTCPeerConnectionErrorCallback
+RTCSessionDescription
+RTCSessionDescriptionCallback
+ScriptProcessorNode
+Selection SettingsLock
+SettingsManager
+SharedWorker StyleSheet
+StyleSheetList SVGAElement
+SVGAngle SVGAnimateColorElement
+SVGAnimatedAngle
+SVGAnimatedBoolean
+SVGAnimatedEnumeration
+SVGAnimatedInteger
+SVGAnimatedLength
+SVGAnimatedLengthList
+SVGAnimatedNumber
+SVGAnimatedNumberList
+SVGAnimatedPoints
+SVGAnimatedPreserveAspectRatio
+SVGAnimatedRect
+SVGAnimatedString
+SVGAnimatedTransformList
+SVGAnimateElement
+SVGAnimateMotionElement
+SVGAnimateTransformElement
+SVGAnimationElement
+SVGCircleElement
+SVGClipPathElement
+SVGCursorElement
+SVGDefsElement SVGDescElement
+SVGElement SVGEllipseElement
+SVGFilterElement
+SVGFontElement SVGFontFaceElement
+SVGFontFaceFormatElement
+SVGFontFaceNameElement
+SVGFontFaceSrcElement
+SVGFontFaceUriElement
+SVGForeignObjectElement
+SVGGElement SVGGlyphElement
+SVGGradientElement
+SVGHKernElement
+SVGImageElement
+SVGLength SVGLengthList
+SVGLinearGradientElement
+SVGLineElement SVGMaskElement
+SVGMatrix SVGMissingGlyphElement
+SVGMPathElement
+SVGNumber SVGNumberList
+SVGPathElement SVGPatternElement
+SVGPoint SVGPolygonElement
+SVGPolylineElement
+SVGPreserveAspectRatio
+SVGRadialGradientElement
+SVGRect SVGRectElement
+SVGScriptElement
+SVGSetElement SVGStopElement
+SVGStringList SVGStylable
+SVGStyleElement
+SVGSVGElement SVGSwitchElement
+SVGSymbolElement
+SVGTests SVGTextElement
+SVGTextPositioningElement
+SVGTitleElement
+SVGTransform SVGTransformable
+SVGTransformList
+SVGTRefElement SVGTSpanElement
+SVGUseElement SVGViewElement
+SVGVKernElement
+TCPServerSocket
+TCPSocket Telephony
+TelephonyCall Text
+TextDecoder TextEncoder
+TextMetrics TimeRanges
+Touch TouchList
+Transferable TreeWalker
+Uint16Array Uint32Array
+Uint8Array Uint8ClampedArray
+URLSearchParams
+URLUtilsReadOnly
+UserProximityEvent
+ValidityState VideoPlaybackQuality
+WaveShaperNode WebBluetooth
+WebGLRenderingContext
+WebSMS WebSocket
+WebVTT WifiManager
+Window Worker WorkerConsole
+WorkerLocation WorkerNavigator
+XDomainRequest XMLDocument
+XMLHttpRequestEventTarget
+
+applicationCache
+closed
+Components
+controllers
+dialogArguments
+document
+frameElement
+frames
+fullScreen
+history
+innerHeight
+innerWidth
+length
+location
+locationbar
+menubar
+messageManager
+name navigator
+opener
+outerHeight
+outerWidth
+pageXOffset
+pageYOffset
+parent
+performance
+personalbar
+returnValue
+screen
+screenX
+screenY
+scrollbars
+scrollMaxX
+scrollMaxY
+scrollX
+scrollY
+self sidebar
+status
+statusbar
+toolbar
+top visualViewport
+window
+
+alert
+atob
+blur
+btoa
+clearImmediate
+clearInterval
+clearTimeout
+close
+confirm
+dispatchEvent
+find
+focus
+getAttention
+getAttentionWithCycleCount
+getComputedStyle
+getDefaulComputedStyle
+getSelection
+matchMedia
+maximize
+moveBy
+moveTo
+open
+openDialog
+postMessage
+print
+prompt
+removeEventListener
+resizeBy
+resizeTo
+restore
+scroll
+scrollBy
+scrollByLines
+scrollByPages
+scrollTo
+setCursor
+setImmediate
+setInterval
+setResizable
+setTimeout
+showModalDialog
+sizeToContent
+stop
+updateCommands
+
+onchange
+ondevicelight
+onerror
+onkeypress
+onmousemove
+mouseup
+onpopstate
+onselect
+proximity
+
+DOMParser
+QueryInterface
+XMLSerializer
+
+battery buildID connection cookieEnabled
+doNotTrack maxTouchPoints oscpu
+productSub push serviceWorker
+vendor vendorSub
+
+addIdleObserver geolocation nextgroup=typescriptFuncCallArg
+getDeviceStorage getDeviceStorages nextgroup=typescriptFuncCallArg
+getGamepads getUserMedia registerContentHandler nextgroup=typescriptFuncCallArg
+removeIdleObserver requestWakeLock nextgroup=typescriptFuncCallArg
+share vibrate watch registerProtocolHandler nextgroup=typescriptFuncCallArg
+sendBeacon nextgroup=typescriptFuncCallArg
+
+register nextgroup=typescriptFuncCallArg
+
+
+href protocol host hostname port
+pathname search hash username password
+origin
+
+assign reload replace toString
+
+length current next previous state
+scrollRestoration
+
+back forward go pushState replaceState
+
+
+count dir error group groupCollapsed
+groupEnd info log time timeEnd trace
+warn
+
+
+onreadystatechange readyState response
+responseText responseType responseXML status
+statusText timeout ontimeout upload withCredentials
+
+abort getAllResponseHeaders getResponseHeader
+open overrideMimeType send setRequestHeader
+
+
+readAsArrayBuffer readAsBinaryString
+readAsDataURL readAsText
+error readyState result
+abort readAsArrayBuffer readAsBinaryString
+readAsDataURL readAsText
+item
+append getBlob getFile
+hash host hostname href origin password
+pathname port protocol search searchParams
+username
+createObjectURL revokeObjectURL
+
+syntax keyword typescriptCryptoGlobal
+syntax keyword typescriptSubtleCryptoMethod contained encrypt decrypt sign verify
+syntax keyword typescriptSubtleCryptoMethod contained digest
+syntax cluster props
+syntax keyword typescriptCryptoProp contained subtle
+syntax cluster props
+syntax keyword typescriptCryptoMethod contained getRandomValues
+syntax cluster props
+
+append delete get getAll has set
+method url headers context referrer
+credentials cache
+clone
+type url status statusText headers
+redirected
+
+controller ready
+gistration
+
+matchAll add addAll put delete
+keys
+
+encoding fatal ignoreBOM
+encode decode
+
+getCurrentPosition watchPosition
+clearWatch
+
+downlink downlinkMax effectiveType
+rtt type
+
+
+show abort canMakePayment
+shippingAddress shippingOption result
+ onshippingaddresschange onshippingoptionchange
+complete
+details methodName payerEmail
+payerPhone shippingAddress
+shippingOption
+addressLine careOf city country
+country dependentLocality languageCode
+organization phone postalCode
+recipient region sortingCode
+id label amount selected
+
+attributes baseURI baseURIObject childNodes
+firstChild lastChild localName namespaceURI
+nextSibling nodeName nodePrincipal
+nodeType nodeValue ownerDocument parentElement
+parentNode prefix previousSibling textContent
+appendChild cloneNode compareDocumentPosition
+getUserData hasAttributes hasChildNodes
+insertBefore isDefaultNamespace isEqualNode
+isSameNode isSupported lookupNamespaceURI
+lookupPrefix normalize removeChild
+replaceChild setUserData
+ELEMENT_NODE ATTRIBUTE_NODE TEXT_NODE
+CDATA_SECTION_NODEN_NODE ENTITY_REFERENCE_NODE
+ENTITY_NODE PROCESSING_INSTRUCTION_NODEN_NODE
+COMMENT_NODE DOCUMENT_NODE DOCUMENT_TYPE_NODE
+DOCUMENT_FRAGMENT_NODE NOTATION_NODE
+
+accessKey clientHeight clientLeft
+clientTop clientWidth id innerHTML
+length onafterscriptexecute onbeforescriptexecute
+oncopy oncut onpaste onwheel scrollHeight
+scrollLeft scrollTop scrollWidth tagName
+classList className name outerHTML
+style
+getAttributeNS getAttributeNode getAttributeNodeNS
+getBoundingClientRect getClientRects
+getElementsByClassName getElementsByTagName
+getElementsByTagNameNS hasAttribute
+hasAttributeNS insertAdjacentHTML
+matches querySelector querySelectorAll
+removeAttribute removeAttributeNS
+removeAttributeNode requestFullscreen
+requestPointerLock scrollIntoView
+setAttribute setAttributeNS setAttributeNode
+setAttributeNodeNS setCapture supports
+getAttribute
+
+activeElement body cookie defaultView
+designMode dir domain embeds forms head
+images lastModified links location plugins
+postMessage readyState referrer registerElement
+scripts styleSheets title vlinkColor
+xmlEncoding characterSet compatMode
+contentType currentScript doctype documentElement
+documentURI documentURIObject firstChild
+implementation lastStyleSheetSet namespaceURI
+nodePrincipal ononline pointerLockElement
+popupNode preferredStyleSheetSet selectedStyleSheetSet
+styleSheetSets textContent tooltipNode
+caretPositionFromPoint close createNodeIterator
+createRange createTreeWalker elementFromPoint
+getElementsByName adoptNode createAttribute
+createCDATASection createComment createDocumentFragment
+createElement createElementNS createEvent
+createExpression createNSResolver
+createProcessingInstruction createTextNode
+enableStyleSheetsForSet evaluate execCommand
+exitPointerLock getBoxObjectFor getElementById
+getElementsByClassName getElementsByTagName
+getElementsByTagNameNS getSelection
+hasFocus importNode loadOverlay open
+queryCommandSupported querySelector
+querySelectorAll write writeln
+
+addEventListener removeEventListener
+dispatchEvent waitUntil
+bubbles cancelable currentTarget defaultPrevented
+eventPhase target timeStamp type isTrusted
+isReload
+initEvent preventDefault stopImmediatePropagation
+stopPropagation respondWith default
+
+sessionStorage localStorage
+length
+getItem key setItem removeItem
+clear
+
+acceptCharset action elements encoding
+enctype length method name target
+reportValidity reset submit
+
+alignContent alignItems alignSelf animation
+animationDelay animationDirection animationDuration
+animationFillMode animationIterationCount
+animationName animationPlayState animationTimingFunction
+appearance backfaceVisibility background
+backgroundAttachment backgroundBlendMode
+backgroundClip backgroundColor backgroundImage
+backgroundOrigin backgroundPosition backgroundRepeat
+backgroundSize border borderBottom borderBottomColor
+borderBottomLeftRadius borderBottomRightRadius
+borderBottomStyle borderBottomWidth borderCollapse
+borderColor borderImage borderImageOutset
+borderImageRepeat borderImageSlice borderImageSource
+borderImageWidth borderLeft borderLeftColor
+borderLeftStyle borderLeftWidth borderRadius
+borderRight borderRightColor borderRightStyle
+borderRightWidth borderSpacing borderStyle
+borderTop borderTopColor borderTopLeftRadius
+borderTopRightRadius borderTopStyle borderTopWidth
+borderWidth bottom boxDecorationBreak
+boxShadow boxSizing breakAfter breakBefore
+breakInside captionSide caretColor caretShape
+caret clear clip clipPath color columns
+columnCount columnFill columnGap columnRule
+columnRuleColor columnRuleStyle columnRuleWidth
+columnSpan columnWidth content counterIncrement
+counterReset cursor direction display
+emptyCells flex flexBasis flexDirection
+flexFlow flexGrow flexShrink flexWrap
+float font fontFamily fontFeatureSettings
+fontKerning fontLanguageOverride fontSize
+fontSizeAdjust fontStretch fontStyle fontSynthesis
+fontVariant fontVariantAlternates fontVariantCaps
+fontVariantEastAsian fontVariantLigatures
+fontVariantNumeric fontVariantPosition
+fontWeight grad grid gridArea gridAutoColumns
+gridAutoFlow gridAutoPosition gridAutoRows
+gridColumn gridColumnStart gridColumnEnd
+gridRow gridRowStart gridRowEnd gridTemplate
+gridTemplateAreas gridTemplateRows gridTemplateColumns
+height hyphens imageRendering imageResolution
+imageOrientation imeMode inherit justifyContent
+left letterSpacing lineBreak lineHeight
+listStyle listStyleImage listStylePosition
+listStyleType margin marginBottom marginLeft
+marginRight marginTop marks mask maskType
+maxHeight maxWidth minHeight minWidth
+mixBlendMode objectFit objectPosition
+opacity order orphans outline outlineColor
+outlineOffset outlineStyle outlineWidth
+overflow overflowWrap overflowX overflowY
+overflowClipBox padding paddingBottom
+paddingLeft paddingRight paddingTop pageBreakAfter
+pageBreakBefore pageBreakInside perspective
+perspectiveOrigin pointerEvents position
+quotes resize right shapeImageThreshold
+shapeMargin shapeOutside tableLayout tabSize
+textAlign textAlignLast textCombineHorizontal
+textDecoration textDecorationColor textDecorationLine
+textDecorationStyle textIndent textOrientation
+textOverflow textRendering textShadow
+textTransform textUnderlinePosition top
+touchAction transform transformOrigin
+transformStyle transition transitionDelay
+transitionDuration transitionProperty
+transitionTimingFunction unicodeBidi unicodeRange
+userSelect userZoom verticalAlign visibility
+whiteSpace width willChange wordBreak
+wordSpacing wordWrap writingMode zIndex
+
+
+animationend animationiteration
+animationstart beginEvent endEvent
+repeatEvent
+CssRuleViewRefreshed CssRuleViewChanged
+CssRuleViewCSSLinkClicked transitionend
+blocked complete error success upgradeneeded
+versionchange
+DOMLinkAdded DOMLinkRemoved DOMMetaAdded
+DOMMetaRemoved DOMWillOpenModalDialog
+DOMModalDialogClosed unload
+DOMAttributeNameChanged DOMAttrModified
+DOMCharacterDataModified DOMContentLoaded
+DOMElementNameChanged DOMNodeInserted
+DOMNodeInsertedIntoDocument DOMNodeRemoved
+DOMNodeRemovedFromDocument DOMSubtreeModified
+dragdrop dragend dragenter dragexit
+draggesture dragleave dragover dragstart
+drop
+invalid overflow underflow DOMAutoComplete
+command commandupdate
+blur change DOMFocusIn DOMFocusOut focus
+focusin focusout
+submit
+DOMFrameContentLoaded
+click contextmenu DOMMouseScroll
+dblclick gamepadconnected gamepaddisconnected
+keydown keypress keyup MozGamepadButtonDown
+MozGamepadButtonUp mousedown mouseenter
+mouseleave mousemove mouseout
+mouseover mouseup mousewheel MozMousePixelScroll
+pointerlockchange pointerlockerror
+wheel
+audioprocess canplay canplaythrough
+durationchange emptied ended ended loadeddata
+loadedmetadata MozAudioAvailable pause
+play playing ratechange seeked seeking
+stalled suspend timeupdate volumechange
+complete
+DOMMenuItemInactive
+datachange dataerror disabled enabled
+offline online statuschange connectionInfoUpdate
+abort error load loadend loadstart
+timeout uploadprogress
+cached error load
+afterscriptexecute beforescriptexecute
+compassneedscalibration devicelight
+devicemotion deviceorientation deviceproximity
+orientationchange userproximity
+storyEvent contained pagehide pageshow popstate
+change storage
+SVGError SVGLoad SVGResize SVGScroll
+SVGZoom
+contained visibilitychange
+compositionstart compositionupdate
+cut paste select text
+touchcancel touchend touchenter touchleave
+touchmove touchstart
+checking downloading error noupdate
+obsolete updateready
+hashchange input readystatechange
+fullscreen fullscreenchange fullscreenerror
+resize scroll
+close error message open
+DOMWindowCreated DOMWindowClose DOMTitleChanged
+beforeunload message open show
+install activate fetch

@@ -1,0 +1,12 @@
+/* Universal Box-sizing; */
+* *::before *::after {
+    box-sizing: border-box; /* include the border and padding size into div calculation so the width and height is the actuall size of your div*/
+
+}
+/* Css Reset */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+box-sizing: border-box;

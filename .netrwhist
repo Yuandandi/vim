@@ -1,0 +1,12 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =0
+let g:netrw_dirhist_0='/home/danzor/repos/github.com/yuandandi/learn/lbootstrap'
+let g:netrw_dirhist_9='/home/danzor/youtube'
+let g:netrw_dirhist_8='/home/danzor'
+let g:netrw_dirhist_7='/home'
+let g:netrw_dirhist_6='/home/danzor'
+let g:netrw_dirhist_5='/home/danzor/Downloads'
+let g:netrw_dirhist_4='/home/danzor'
+let g:netrw_dirhist_3='/home/danzor/Downloads/asset/image'
+let g:netrw_dirhist_2='/home/danzor/repos/github.com/yuandandi/learn/lbootstrap'
+let g:netrw_dirhist_1='/home/danzor/Downloads/asset/image'
